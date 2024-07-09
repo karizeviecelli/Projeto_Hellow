@@ -1,5 +1,5 @@
 Adicione uma pasta com seu nome contendo seu cartão de apresentação.
-Dentro da pasta o projeto do cartão de apresentação dee seguir a estrutura organizada em:
+Dentro da pasta o projeto do cartão de apresentação deve seguir a estrutura organizada em:
 |__css
 |__js
 |__imagens
