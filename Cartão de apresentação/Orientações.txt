@@ -5,3 +5,6 @@ Dentro da pasta o projeto do cartão de apresentação deve seguir a estrutura o
 |__imagens
 |_home.html
 |_adicione as outras páginas html
+
+Esta entrega vai gerar notas para as disciplinas: HTML, CSS e Bootstrap.
+Data limite para entrega é dia 16/07
