@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <!-- configurações base -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="CSS/estilo.css" rel="stylesheet">
+    <!-- configurações base -->
+    <script src="JS/script.js"></script>
+    <link rel="stylesheet" href="SCSS/cores.scss">
+    <link rel="icon" type="image/x-icon" href="Imagens/favicon.ico">
+</head>
+
+<body>
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+        <symbol id="check2" viewBox="0 0 16 16">
+            <path
+                d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path
+                d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+            <path
+                d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path
+                d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+        </symbol>
+    </svg>
+
+    <!-- cabeçalho -->
+    <header data-bs-theme="dark">
+        <!-- nav -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark navbar-collapse" id="navbarCollapse">
+            <div>
+                <!-- Voltar a pg inicial -->
+                <abbr title="Página Inicial">
+                    <button class="btn btn-lg border-white bg-white nav-item">
+                        <a href="-índex.html"><img src="Imagens/house.svg" width="30" height="30"
+                                alt="Quadrado com um triângulo no topo representando uma casa">
+                        </a>
+                    </button>
+                </abbr>
+                <!-- ir para outras pgs -->
+                <abbr title="Hobbies">
+                    <button class="btn btn-lg border-white bg-white nav-item">
+                        <a href="Hobbies.html"><img src="Imagens/balloon.svg" width="30" height="30"
+                                alt="Forma oval com uma linha ondulada representando um balão">
+                        </a>
+                    </button>
+                </abbr>
+                <abbr title="Galeria">
+                    <button class="btn btn-lg border-white bg-white nav-item">
+                        <a href="galeria de fotos.html"><img src="Imagens/camera.svg" width="30" height="30"
+                                alt="Retângulo com um círculo no meio representando ma câmera fotográfica">
+                        </a>
+                    </button>
+                </abbr>
+                <!-- ir para outras pgs -->
+            </div>
+        </nav>
+        <!-- nav -->
+    </header>
+    <!-- cabeçalho -->
+
+    <!-- início principal -->
+    <main>
+        <!-- container -->
+        <div class="container py-4">
+            <div class="lead">
+                <!-- Jumbotroon 1 -->
+                <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+                    <div class="container-fluid py-5">
+                        <h2 class="display-5 fw-bold">Do que eu gosto!</h2>
+                        <p class="col-md-8 fs-4">
+                            Gosto bastante de desenhar, escrever e jogar, quando criança queria ter pelo menos mil e uma
+                            profissões.
+                            <br>
+                            Apesar de ter sido bastante indecisa com minha profissão, agora já tenho certeza maior
+                            do que seguir:
+                            <br>
+                            <b>Programação!👩‍💻</b>
+                            <br>
+                            Todas as experiências que tive com essa área me interessam, e espero seguir no ramo!
+                    </div>
+                </div>
+                <!-- Jumbotroon 1 -->
+
+                <!-- Jumbotroon 2 -->
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6 container-fluid py-5">
+                        <div class="h-100 p-5 bg-body-tertiary border rounded-3 ali">
+                            <h3>Escrita✍️</h3>
+                            <p>A escrita para mim é bastante importante, eu adoro escrever, é uma forma para eu me
+                                expressar
+                                e
+                                também
+                                compartilhar com outras pessoas o que sinto!
+                                <br>
+                                Gosto de escrever poemas, já que um poema define bem o que é "o sentimento", escrevo
+                                sobre
+                                sentimentos para
+                                tentar fazer com que pessoas que tenham dificuldade em lidar com isso possam se sentir
+                                acolhidas,
+                                tenho
+                                ainda o sonho de publicar um livro com estes textos que escrevo!
+                                <br>
+                                A escrita já é parte do meu dia a dia, além disso tenho várias amigas que escrevem
+                                também!
+                                <br>
+                                <b>Por favor! Dê uma olhada nos nossos trabalhos no instagram:
+                                    <ins class="text-dark">untoldlife23</ins>
+                                </b>
+                                <a href="https://open.spotify.com/playlist/37i9dQZF1E4nASGPZrgnxL"
+                                    class="btn btn-primary my-2">Algumas músicas que gosto ou me inspiram.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jumbotroon 2 -->
+                <br class="featurette-divider">
+                <!-- Jumbotroon 3 -->
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6 container-fluid py-5">
+                        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                            <h3>Desenhos🎨</h3>
+                            Começei a levar isso mais a sério após 2022, quando mudei de escola, atualmente tenho
+                            bastante
+                            orgulho do
+                            que desenho mesmo sendo iniciante ainda.
+                            <br>
+                            Assim como a escrita, os desenhos são importantes, como outra forma para me expressar, é
+                            como outro
+                            universo
+                            para mim.
+                            <br>
+                            Com os desenhos sinto que posso (literalmente) representar o sentido figurativo de certas
+                            coisas, é
+                            uma
+                            outra forma que posso representar o sentimento.
+                            <br>
+                            Quando desenho, meu foco é o corpo humano, é por isso que meus desenhos (em sua maioria) são
+                            personagens que criei, pessoas, ou mesmo personagens de alguma série animada etc.
+                            <br>
+                            <a href="desenhos.html" class="btn btn-primary my-2">Veja aqui alguns desenhos meus!</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Jumbotroon 3 -->
+                <br class="featurette-divider">
+                <!-- Jumbotroon 4 -->
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6 container-fluid py-5">
+                        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                            <h3>Jogos🕹️👾</h3>
+                            Os Jogos são divertidos, é uma forma de me distrair mesmo não jogando tão frequentemente
+                            adoro
+                            pesquisar
+                            sobre teorias e resenhas.
+                            <br>
+                            Gosto de assistir vídeos de <i>gameplays</i> (um tipo de vídeo onde pessoas se gravam
+                            jogando).
+                            <br>
+                            Não tem tanta importância quanto a escrita ou o desenho, é simplesmente uma forma que tenho
+                            para me divertir. <br>
+                            Alguns youtubers que acompanho: <a href="https://www.youtube.com/@Jazzghost">Jazzghost</a>,
+                            <a href="https://www.youtube.com/@DanteWill">DanteWill</a>, <a
+                                href="https://www.youtube.com/@Jaoafk">JaoAfk</a> e <a
+                                href="https://www.youtube.com/@Remainings">Remainings</a>.
+                        </div>
+                    </div>
+                </div>
+                <!-- Jumbotroon 4 -->
+            </div>
+        </div>
+        <!-- container -->
+    </main>
+    <!-- fim principal -->
+    <hr class="featurette-divider">
+    <!-- rodpé -->
+    <footer class="container">
+        <p class="float-end"><a href="#">Voltar ao topo</a></p>
+        <p>Os modelos base para este site foram retirados de <a href="https://getbootstrap.com/"
+                class="text-dark">&copy;Bootstrap</a>, editados por Julia. <a href="-índex.html">Visitar a página
+                inicial</a></p>
+    </footer>
+    <!-- rodpé -->
+
+    <!-- configurações base -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <!-- configurações base -->
+</body>
+
+</html>
