@@ -1,0 +1,17 @@
+body {
+    background-color: #a1daff;
+    padding-top: 20px;
+}
+.tab-content {
+    padding: 20px;
+}
+.list-group-item {
+    cursor: pointer;
+}
+img{
+    width: 40%;
+}
+a { width: 80px;}
+h1 {
+    color: rgb(0, 89, 255);
+}
