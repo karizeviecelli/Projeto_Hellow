@@ -1,0 +1,7 @@
+.navbar-custom {
+    background-color: #a5c2dd !important;
+}
+#map {
+    height: 400px;
+    width: 100%;
+}
