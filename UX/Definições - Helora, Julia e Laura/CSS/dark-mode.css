@@ -1,0 +1,53 @@
+:root {
+    --body-bg: white;
+    --body-color: rgb(20, 20, 20);
+    --h2-color: white;
+    --p-color: rgb(0, 0, 0);
+    --nav-color:  rgb(26, 26, 104)!important;
+    --botao-color: rgb(57, 57, 151) !important;
+}
+
+body {
+    background-color: var(--body-bg);
+    color: var(--body-color);
+}
+
+h2 {
+    color: var(--body-color);
+}
+
+h5 {
+    color: var(--p-color);
+}
+
+p {
+    color: var(--p-color);
+}
+
+.historia {
+    color: var(--body-color);
+}
+
+.index {
+    color: var(--h2-color);
+}
+
+.rodape {
+    color: var(--body-color);
+}
+
+.cabeçalho {
+    background-color: var(--nav-color); 
+  }
+
+  .link {
+    background-color: var(--botao-color);
+  }
+
+.dark-mode:root {
+    --body-bg: rgb(31, 31, 31);
+    --body-color: white !important;
+    --p-color: #000000;
+    --nav-color: rgb(57, 57, 201) !important;
+    --botao-color: rgb(80, 80, 253) !important;
+}
