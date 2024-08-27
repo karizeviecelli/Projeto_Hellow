@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos de Blumenau</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        /* Reset básico */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+      background-color: #adc3d6;
+      /* Azul claro */
+
+}
+
+
+
+header h1 {
+    font-size: 2rem;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: calc(33% - 20px);
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="principal.html">Eventos Blumenau</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+   
+          <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="paginainicial.html">Home <span class="sr-only">(página atual)</span></a>
+              </li>,
+              <li class="nav-item">
+                <a class="nav-link" href="pontosturisticos.html">Pontos Turisticos</a>
+              <li class="nav-item"></li>
+              <a class="nav-link" href="ingressos.html">Ingressos</a>
+              <li class="nav-item"></li>
+              <a class="nav-link" href="prefeiturablumenau.html">Prefeitura De Blumenau</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Contato
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://www.instagram.com/visitblumenausc/">Instagram</a>
+                  <a class="dropdown-item" href="https://www.facebook.com/visitblumenausc/">Facebook</a>
+                </div>
+              </li>
+            </ul>
+      </header>
+
+    <!-- Seção da Galeria -->
+    <section class="gallery">
+        <h2>Fotos De Blumenau</h2>
+        <div class="gallery-container">
+            <img src="https://t3.ftcdn.net/jpg/05/20/03/62/240_F_520036280_32ZvDUOl8K0bzNQxxzPvXhCVN0uqXQ5D.jpg" alt="Foto 1">
+            <img src="https://t3.ftcdn.net/jpg/05/30/85/16/240_F_530851689_8tRnthxWGRJQxRCLJwuurve6I9xUjVk6.jpg" alt="Foto 2">
+            <img src="https://t4.ftcdn.net/jpg/08/25/30/01/240_F_825300126_Q8xzIaASVhUS4YtF1EL5xufwuIoTKF6W.jpg" alt="Foto 3">
+            <img src="https://t3.ftcdn.net/jpg/06/00/37/56/240_F_600375605_VQNRfNCRZwAikti8hZa7qLNtEQJTMHWu.jpg" alt="Foto 4">
+            <img src="https://t4.ftcdn.net/jpg/05/25/18/57/240_F_525185714_bkTtRrZZ9UydF2j5ZvJd627AvYXK8BKJ.jpg" alt="Foto 5">
+            <img src="https://t4.ftcdn.net/jpg/07/68/98/77/240_F_768987771_38iOSnGrROUNl6zgv4eeOPQbo7sQNCof.jpg" alt="Foto 6">
+            <img src="https://t4.ftcdn.net/jpg/04/55/51/97/240_F_455519777_kZYUa3fpX93lFP9zY5kievYB6nvxdZ3e.jpg" alt="Foto 7">
+            <img src="https://t3.ftcdn.net/jpg/07/67/10/50/240_F_767105066_3LgRMfZJQXqdwhtVJ2fIhwQHJT2ltbLF.jpg" alt="Foto 8">
+            <img src="https://t3.ftcdn.net/jpg/03/28/79/92/240_F_328799214_u6uHf4tphXHaQujUDxNLiyEeP9rlkHnU.jpg" alt="Foto 9">
+            <img src="https://t4.ftcdn.net/jpg/05/46/05/87/240_F_546058760_d9Zyzc3VupGLE1WQZfXulJK9WNwsKn4J.jpg" alt="Foto 10">
+            <img src="https://t4.ftcdn.net/jpg/04/55/52/57/240_F_455525723_ryuvJM4H1kT0keyfGBvx3aOeGz22Hqu7.jpg" alt="Foto 11">
+            <img src="https://t3.ftcdn.net/jpg/02/36/62/22/240_F_236622217_awU66FFdLYmD9PuChaIy8V9xRTmJ67uX.jpg" alt="Foto 12">
+            <img src="https://t3.ftcdn.net/jpg/05/42/46/92/240_F_542469203_QhB1RyNNx1dITQsb1hfSv40BeJ7XYbWw.jpg" alt="Foto 13">
+        </div>
+        <button type="button"class="btn btn-outline-primary"><a href="paginainicial.html">voltar</a></button>
+    </section>
+
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
